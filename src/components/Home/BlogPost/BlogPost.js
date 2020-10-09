@@ -11,9 +11,9 @@ const BlogPost = (props) => {
                     <p className="m-0">{date}</p>
                 </div>
             </div>
-            <div class="card-body">
+            <div className="card-body">
                 <h5>{title}</h5>
-                <p class="card-text text-secondary mt-4">{description}</p>
+                <p className="card-text text-secondary mt-4">{description}</p>
             </div>
             
        </div>
